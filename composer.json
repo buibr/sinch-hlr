@@ -1,0 +1,21 @@
+{
+    "name": "buibr/sinch-hlr",
+    "description": "Sinch HLR Lookup for valid phone numbers",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["sinch","hlr","lookup","phone","number","validation","php"],
+    "require": {
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Burhan Ibraimi",
+            "email": "burhan@wflux.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "buibr\\SinchHlr\\": ""
+        }
+    }
+}
